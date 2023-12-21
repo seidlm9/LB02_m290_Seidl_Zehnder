@@ -40,6 +40,12 @@ CREATE TABLE Raum (
     Raumnummer VARCHAR(255) NOT NULL
 );
 
+-- Tabelle für Woche
+CREATE TABLE Woche (
+    WocheID INT PRIMARY KEY,
+    Woche VARCHAR(255) NOT NULL
+);
+
 -- Tabelle für Lektion
 CREATE TABLE Lektion (
     LektionID INT PRIMARY KEY,
