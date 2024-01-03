@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b9e600f-febe-4b21-b035-ace63c39d35a" name="Changes" comment="Basistabellen &amp; Loginpage erstellt">
-      <change afterPath="$PROJECT_DIR$/databases/fill_databases.sql" afterDir="false" />
+    <list default="true" id="8b9e600f-febe-4b21-b035-ace63c39d35a" name="Changes" comment="Basistabellen angepasst &amp; gefüllt">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/88942796-c90a-4487-8e8d-2cadddbc5c28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/88942796-c90a-4487-8e8d-2cadddbc5c28.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/databases/all_databases.sql" beforeDir="false" afterPath="$PROJECT_DIR$/databases/all_databases.sql" afterDir="false" />
     </list>
@@ -33,34 +31,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Mikes/Desktop/Berufsschule/StundenplanTool_Demir/LB02_m290_Seidl_Zehnder/databases/all_databases.sql",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;88942796-c90a-4487-8e8d-2cadddbc5c28&quot;,
-      &quot;88942796-c90a-4487-8e8d-2cadddbc5c28/schema/\&quot;stundenplantool\&quot;&quot;
+    "RunConfigurationTargetLRU": [
+      "88942796-c90a-4487-8e8d-2cadddbc5c28/schema/\"stundenplantool\"",
+      "88942796-c90a-4487-8e8d-2cadddbc5c28"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
-      &quot;MySQL&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "MySQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mikes\Desktop\Berufsschule\StundenplanTool_Demir\LB02_m290_Seidl_Zehnder\databases" />
@@ -68,15 +67,16 @@
       <recent name="C:\Users\Mikes\Desktop\Berufsschule\StundenplanTool_Demir\LB02_m290_Seidl_Zehnder\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Database Script.fill_databases.sql">
+  <component name="RunManager" selected="Database Script.all_databases.sql">
     <configuration name="all_databases.sql (1)" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/databases/all_databases.sql" />
       <script-mode>FILE</script-mode>
       <data-source id="88942796-c90a-4487-8e8d-2cadddbc5c28" namespace="schema/&quot;stundenplantool&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="all_databases.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+    <configuration name="all_databases.sql" type="DatabaseScript" editBeforeRun="true" singleton="false" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/all_databases.sql" />
+      <script-file value="$PROJECT_DIR$/databases/all_databases.sql" />
       <script-mode>FILE</script-mode>
       <data-source id="88942796-c90a-4487-8e8d-2cadddbc5c28" />
       <method v="2" />
@@ -92,9 +92,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Database Script.fill_databases.sql" />
-        <item itemvalue="Database Script.all_databases.sql (1)" />
         <item itemvalue="JavaScript Debug.loginpage.html" />
+        <item itemvalue="Database Script.all_databases.sql (1)" />
+        <item itemvalue="Database Script.fill_databases.sql" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +111,9 @@
       <workItem from="1702546667926" duration="1572000" />
       <workItem from="1703143819825" duration="6972000" />
       <workItem from="1703165032445" duration="261000" />
-      <workItem from="1703183027039" duration="1850000" />
+      <workItem from="1703183027039" duration="2175000" />
+      <workItem from="1703233425094" duration="4697000" />
+      <workItem from="1704285436191" duration="292000" />
     </task>
     <task id="LOCAL-00001" summary="Basistabellen &amp; Loginpage erstellt">
       <created>1703146228326</created>
@@ -120,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703146228326</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Basistabellen angepasst &amp; gefüllt">
+      <created>1703188943200</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703188943200</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basistabellen &amp; Loginpage erstellt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basistabellen &amp; Loginpage erstellt" />
+    <MESSAGE value="Basistabellen angepasst &amp; gefüllt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basistabellen angepasst &amp; gefüllt" />
   </component>
 </project>

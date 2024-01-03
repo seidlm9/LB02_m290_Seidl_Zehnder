@@ -53,10 +53,12 @@ CREATE TABLE Lektion (
     KlasseID INT,
     LehrerID INT,
     RaumID INT,
+    WocheID INT,
     Tag INT,
     Stunde INT,
     FOREIGN KEY (FachID) REFERENCES Fach(FachID),
     FOREIGN KEY (KlasseID) REFERENCES Klasse(KlasseID),
     FOREIGN KEY (LehrerID) REFERENCES Lehrer(LehrerID),
-    FOREIGN KEY (RaumID) REFERENCES Raum(RaumID)
+    FOREIGN KEY (RaumID) REFERENCES Raum(RaumID),
+    FOREIGN KEY (WocheID) REFERENCES Woche(WocheID)
 );
